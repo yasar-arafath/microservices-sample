@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://yasar-arafath.github.io/microservices-sample/about/sitemap.xml
