@@ -23,33 +23,33 @@ The sample application has two services namely service-one and service-two. Each
 
 Below are the screens of the application.
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/screens/_Web%20App/01.%20Home.png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/screens/_Web%20App/01.%20Home.png?raw=true)
 
 Clicking on the tab's one or two the data that you see on the screen is based on the data fetched by the respective service by calling its database.
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/screens/_Web%20App/02.%20One.png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/screens/_Web%20App/02.%20One.png?raw=true)
 
 Notice that the UUID generated for service-one which lies in service-one-db is in sync with service-two tab which is achieved by RabbitMQ (asychronous communication between microservices). 
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/screens/_Web%20App/03.%20Two.png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/screens/_Web%20App/03.%20Two.png?raw=true)
 
 ### Service Registration
 
 During the initialization of a service, it would get registered to the discovery and registration server (which in our example is Hashicorp's Consul).
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20registration%20sequence).png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20registration%20sequence).png?raw=true)
 
 #### Service Discovery
 
  When one service (say api-gateway) needs to access a resource from another service (say service-one), all it has to do is ask discovery and registration server (Consul) to give one of the service-one's instance information.
  
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20discovery%20sequence).png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20discovery%20sequence).png?raw=true)
 
 ### Architecture
 
 Below is the architectural diagram for microservices sample project.
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/architecture/Infrastructure.png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/architecture/Infrastructure.png?raw=true)
 
 ### Components Integrated & Tools Usage   
 ##### API Gateway
@@ -92,7 +92,7 @@ spring:
 ```
 Consul management console can be accessed at http://localhost:8500/ui/ 
 
-![alt tag](https://github.com/yasar-arafath/microservices-sample/blob/version-5/documents/screens/Consul/consul.png?raw=true)
+![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/screens/Consul/consul.png?raw=true)
  
 ##### Monitoring and vizualization
 
