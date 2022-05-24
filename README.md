@@ -37,13 +37,13 @@ Notice that the UUID generated for service-one which lies in service-one-db is i
 
 During the initialization of a service, it would get registered to the discovery and registration server (which in our example is Hashicorp's Consul).
 
-![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20registration%20sequence).png?raw=true)
+![alt tag]([https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20registration%20sequence).png?raw=true](https://yasar-arafath.github.io/microservices-sample/documents/Register.png))
 
 #### Service Discovery
 
  When one service (say api-gateway) needs to access a resource from another service (say service-one), all it has to do is ask discovery and registration server (Consul) to give one of the service-one's instance information.
  
-![alt tag](https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20discovery%20sequence).png?raw=true)
+![alt tag]([[https://github.com/vmudigal/microservices-sample/blob/version-5/documents/sequence-diagram/microservices-sample%20(service%20discovery%20sequence).png?raw=true](https://yasar-arafath.github.io/microservices-sample/documents/Discovery.png)](https://yasar-arafath.github.io/microservices-sample/documents/Discovery.png))
 
 ### Architecture
 
